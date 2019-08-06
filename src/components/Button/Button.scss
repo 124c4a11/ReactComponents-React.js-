@@ -1,0 +1,36 @@
+$primary: #1976d2;
+
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: .6em 1.1em;
+  border: 0;
+  border-radius: 2px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: $primary;
+  transition: .25s;
+
+  &:hover,
+  &:focus {
+    &:not([disabled]) {
+      background-color: darken($primary, 10%);
+      outline: none;
+    }
+  }
+}
+
+.btn[disabled] {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.btn_active {
+  box-shadow:
+    0px 1px 5px 0px rgba(0, 0, 0, .2),
+    0px 2px 2px 0px rgba(0, 0, 0, .14),
+    0px 3px 1px -2px rgba(0, 0, 0, .12);
+}
