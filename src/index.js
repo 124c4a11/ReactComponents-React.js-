@@ -7,7 +7,9 @@ import * as serviceWorker from './serviceWorker';
 import './index.scss';
 
 import App from './App';
+
 import ButtonSandbox from './components/Button/Sandbox';
+import ButtonGroupSandbox from './components/ButtonGroup/Sandbox';
 
 
 ReactDOM.render(
@@ -15,6 +17,7 @@ ReactDOM.render(
     <App>
       <Switch>
         <Route exact path="/" component={ ButtonSandbox }/>
+        <Route exact path="/button_group" component={ ButtonGroupSandbox }/>
       </Switch>
     </App>
   </BrowserRouter>

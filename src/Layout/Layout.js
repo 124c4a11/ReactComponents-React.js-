@@ -15,7 +15,22 @@ export default ({ children }) => {
         </div>
         <nav>
           <ul className="nav-list">
-            <li><NavLink exact to="/" className="nav-list__link" activeClassName="nav-list__link_active">Button</NavLink></li>
+            <li>
+              <NavLink
+                exact
+                to="/"
+                className="nav-list__link"
+                activeClassName="nav-list__link_active"
+              >Button</NavLink>
+            </li>
+            <li>
+              <NavLink
+                exact
+                to="/button_group"
+                className="nav-list__link"
+                activeClassName="nav-list__link_active"
+              >Button Group</NavLink>
+            </li>
           </ul>
         </nav>
       </div>
