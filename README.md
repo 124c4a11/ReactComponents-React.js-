@@ -2,3 +2,4 @@
 
 - Button
 - Button group
+- Icon

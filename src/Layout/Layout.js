@@ -31,6 +31,14 @@ export default ({ children }) => {
                 activeClassName="nav-list__link_active"
               >Button Group</NavLink>
             </li>
+            <li>
+              <NavLink
+                exact
+                to="/icon"
+                className="nav-list__link"
+                activeClassName="nav-list__link_active"
+              >Icon</NavLink>
+            </li>
           </ul>
         </nav>
       </div>
