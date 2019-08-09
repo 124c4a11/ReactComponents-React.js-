@@ -3,3 +3,4 @@
 - Button
 - Button group
 - Icon
+- Image

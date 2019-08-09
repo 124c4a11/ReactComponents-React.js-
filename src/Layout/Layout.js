@@ -39,6 +39,14 @@ export default ({ children }) => {
                 activeClassName="nav-list__link_active"
               >Icon</NavLink>
             </li>
+            <li>
+              <NavLink
+                exact
+                to="/image"
+                className="nav-list__link"
+                activeClassName="nav-list__link_active"
+              >Image</NavLink>
+            </li>
           </ul>
         </nav>
       </div>
