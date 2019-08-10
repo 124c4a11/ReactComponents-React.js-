@@ -4,3 +4,4 @@
 - Button group
 - Icon
 - Image
+- Chip
