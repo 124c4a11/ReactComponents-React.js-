@@ -5,3 +5,4 @@
 - Icon
 - Image
 - Chip
+- Badge
