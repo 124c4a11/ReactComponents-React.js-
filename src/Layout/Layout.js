@@ -63,6 +63,14 @@ export default ({ children }) => {
                 activeClassName="nav-list__link_active"
               >Badge</NavLink>
             </li>
+            <li>
+              <NavLink
+                exact
+                to="/list_group"
+                className="nav-list__link"
+                activeClassName="nav-list__link_active"
+              >Lisg Group</NavLink>
+            </li>
           </ul>
         </nav>
       </div>

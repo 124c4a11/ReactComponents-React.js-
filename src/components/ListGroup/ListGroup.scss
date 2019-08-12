@@ -1,0 +1,14 @@
+.list-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-group >  {
+  & > *:first-child { border-radius: 5px 5px 0 0; }
+
+  & > *:last-child { border-radius: 0 0 5px 5px; }
+}

@@ -1,0 +1,22 @@
+.list-group__item {
+  position: relative;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 280px;
+  border: 1px solid #EDEDED;
+  padding: 10px 20px;
+
+  &:not(:last-child) { border-bottom: none; }
+}
+
+.list-group__item_active {
+  border: 1px solid #5EB2F2;
+  color: #FFF;
+  background-color: #23C9FF;
+}
+
+.list-group__item_disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}

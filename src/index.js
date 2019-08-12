@@ -14,6 +14,7 @@ import IconSandbox from './components/Icon/Sandbox';
 import ImageSandbox from './components/Image/Sandbox';
 import ChipSandbox from './components/Chip/Sandbox';
 import BadgeSandbox from './components/Badge/Sandbox';
+import ListGroupSandbox from './components/ListGroup/Sandbox';
 
 
 ReactDOM.render(
@@ -26,6 +27,7 @@ ReactDOM.render(
         <Route exact path="/image" component={ ImageSandbox }/>
         <Route exact path="/chip" component={ ChipSandbox }/>
         <Route exact path="/badge" component={ BadgeSandbox }/>
+        <Route exact path="/list_group" component={ ListGroupSandbox }/>
       </Switch>
     </App>
   </BrowserRouter>
