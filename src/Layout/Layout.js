@@ -71,6 +71,14 @@ export default ({ children }) => {
                 activeClassName="nav-list__link_active"
               >Lisg Group</NavLink>
             </li>
+            <li>
+              <NavLink
+                exact
+                to="/input"
+                className="nav-list__link"
+                activeClassName="nav-list__link_active"
+              >Input</NavLink>
+            </li>
           </ul>
         </nav>
       </div>
