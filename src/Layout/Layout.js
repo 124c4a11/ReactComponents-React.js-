@@ -79,6 +79,14 @@ export default ({ children }) => {
                 activeClassName="nav-list__link_active"
               >Input</NavLink>
             </li>
+            <li>
+              <NavLink
+                exact
+                to="/tabs"
+                className="nav-list__link"
+                activeClassName="nav-list__link_active"
+              >Tabs</NavLink>
+            </li>
           </ul>
         </nav>
       </div>

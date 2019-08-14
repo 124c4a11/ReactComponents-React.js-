@@ -8,3 +8,4 @@
 - Badge
 - List group
 - Input
+- Tabs

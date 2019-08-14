@@ -1,0 +1,32 @@
+.tabs__nav {
+  position: relative;
+  z-index: 2;
+  display: flex;
+}
+
+.tabs__content {
+  position: relative;
+  top: -1px;
+  min-height: 100px;
+  padding: 20px;
+  border: 1px solid #ededed;
+  border-radius: 0 0 5px 5px;
+}
+
+.tabs_vertical {
+  display: flex;
+  align-items: stretch;
+
+  .tabs__nav {
+    box-sizing: border-box;
+    flex-direction: column;
+    flex: 1 0 30%;
+  }
+
+  .tabs__content {
+    top: 0;
+    flex: 1 0 70%;
+    min-height: 200px;
+    border-radius: 0 5px 5px 0;
+  }
+}

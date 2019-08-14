@@ -1,0 +1,6 @@
+.tabs__item {
+  overflow: hidden;
+  height: 0;
+}
+
+.tabs__item_active { height: auto; }
