@@ -10,3 +10,4 @@
 - Input
 - Tabs
 - Tooltip
+- Modal

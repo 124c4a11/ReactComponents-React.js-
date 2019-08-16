@@ -95,6 +95,14 @@ export default ({ children }) => {
                 activeClassName="nav-list__link_active"
               >Tooltip</NavLink>
             </li>
+            <li>
+              <NavLink
+                exact
+                to="/modal"
+                className="nav-list__link"
+                activeClassName="nav-list__link_active"
+              >Modal</NavLink>
+            </li>
           </ul>
         </nav>
       </div>

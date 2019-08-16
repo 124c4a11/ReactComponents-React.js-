@@ -18,6 +18,7 @@ import ListGroupSandbox from './components/ListGroup/Sandbox';
 import InputSandbox from './components/Input/Sandbox';
 import TabsSandbox from './components/Tabs/Sandbox';
 import TooltipSandbox from './components/Tooltip/Sandbox';
+import ModalSandbox from './components/Modal/Sandbox';
 
 
 ReactDOM.render(
@@ -34,6 +35,7 @@ ReactDOM.render(
         <Route exact path="/input" component={ InputSandbox }/>
         <Route exact path="/tabs" component={ TabsSandbox }/>
         <Route exact path="/tooltip" component={ TooltipSandbox }/>
+        <Route exact path="/modal" component={ ModalSandbox }/>
       </Switch>
     </App>
   </BrowserRouter>
